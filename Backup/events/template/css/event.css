@@ -1,0 +1,151 @@
+body {
+    
+    font-family: 'Armata', sans-serif;
+    margin:0;
+}
+
+#head {
+    
+    height:5vh;
+    width:100vw;
+    background:#0C0C0C;
+    
+    position:absolute;
+    top:0;
+    left:0;
+    
+    z-index:3;
+}
+
+.glyphicon-home {
+    
+    font-size:2vh;
+    color:#eee;
+    
+    margin-top:1.5vh;
+    margin-left:5%;
+}
+
+#facebook {
+    
+    position:absolute;
+    top:0;
+    right:10vw;
+}
+
+#facebook img {
+    
+    height:2vh;
+    float:left;
+    
+    margin-top:2vh;
+    margin-right:5px;
+}
+
+#facebook h5 {
+    
+    height:3vh;
+    float:left;
+    
+    padding-top:14px;
+    font-size:1em;
+    
+    color:#eee;
+}
+
+#cover {
+    
+    height:100vh;
+    width:100vw;
+    
+    background-image:url('../img/cover.jpg');
+    background-size:cover;
+    background-position:-20%;
+    
+    position:absolute;
+    top:0;
+    left:0;
+    
+    z-index:0;
+    
+}
+
+#dim {
+    
+    
+    height:100%;
+    width:100%;
+    color:#eee;
+    
+    background: #000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.9), rgba(0,0,0,0.45), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.9), rgba(0,0,0,0.45), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.9), rgba(0,0,0,0.45), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0.9), rgba(0,0,0,0.45), rgba(0,0,0,0)); /* Standard syntax */
+
+    opacity:0.8;
+}
+
+#details {
+    
+    position:absolute;
+    left:5%;
+    top:60vh;
+    
+    width:60vw;
+}
+
+#details h1, #details p {
+    
+    margin:0;
+    margin-top:4px;
+}
+
+#details a {
+    
+    text-decoration:none;
+    color:#eee;
+}
+
+#main-text {
+    
+    font-size:90%;
+    overflow:scroll;
+}
+#badge {
+    
+    height:30vh;
+    width:30vh;
+     
+    position:absolute;
+    top:60vh;
+    right:10vw;
+}
+
+/*
+#details p {
+    
+    padding:0;
+}
+*/
+
+#foot {
+    
+    height:5vh;
+    width:100vw;
+    
+    background:#0C0C0C;
+    
+    color:#eee;
+    
+    position:absolute;
+    bottom:0;
+    left:0;
+    
+    z-index:2;
+}
+
+.mobile {
+    
+    display:none;
+}

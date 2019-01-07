@@ -1,0 +1,239 @@
+body {
+    
+    font-family: 'Armata', sans-serif;
+    margin:0;
+}
+
+#head {
+    
+    height:5vh;
+    width:100vw;
+    background:#0C0C0C;
+    
+    position:absolute;
+    top:0;
+    left:0;
+    
+    z-index:3;
+    font-family: 'Armata', sans-serif;
+}
+
+.glyphicon-home {
+    
+    font-size:2vh;
+    color:#eee;
+    
+    margin-top:1.5vh;
+    margin-left:5%;
+}
+
+#facebook {
+    
+    position:absolute;
+    top:0;
+    right:10vw;
+}
+
+#facebook img {
+    
+    height:2vh;
+    float:left;
+    
+    margin-top:2vh;
+    margin-right:5px;
+}
+
+#facebook h5 {
+    
+    height:3vh;
+    float:left;
+    
+    padding-top:14px;
+    font-size:1em;
+    
+    color:#eee;
+}
+
+#cover {
+    
+    height:100vh;
+    width:100vw;
+    
+    background-image:url('../img/cover.jpg');
+    background-size:cover;
+    background-position:-20%;
+    
+    position:absolute;
+    top:0;
+    left:0;
+    
+    z-index:0;
+
+}
+
+#dim {
+    
+    
+    height:100%;
+    width:100%;
+    color:#eee;
+    
+    background: #000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,0.45), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,0.45), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,0.45), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,1), rgba(0,0,0,0.45), rgba(0,0,0,0)); /* Standard syntax */
+
+    opacity:0.8;
+}
+
+#details {
+    
+    position:absolute;
+    left:5%;
+    top:42vh;
+    
+    width:60vw;
+    font-family: 'Armata', sans-serif;
+    
+    opacity:0.95;
+}
+
+#details h1, #details p {
+    
+    margin:0;
+    margin-top:4px;
+}
+
+#details a {
+    
+    text-decoration:none;
+    color:#eee;
+}
+
+#main-text {
+    
+    font-size:90%;
+    overflow:scroll;
+}
+#badge {
+    
+    height:20vh;
+    width:20vh;
+     
+    position:absolute;
+    top:50vh;
+    right:10vw;
+}
+
+/*
+#details p {
+    
+    padding:0;
+}
+*/
+
+#img_slider {
+    
+    position:absolute;
+    bottom:5vh;
+    left:5%;
+    
+    overflow-x:scroll;
+    
+    width:90%;
+    height:20vh;
+    
+}
+
+#float-wrap {
+    
+    width:60vw;
+    overflow:auto;
+}
+
+.polaroid {
+    
+    height:8vw;
+    width:12vw;
+    border:10px #eee solid;
+    
+    -ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Safari */
+    transform: rotate(-3deg);
+    
+    float:left;
+    margin:5px;
+}
+
+#foot {
+    
+    height:5vh;
+    width:100vw;
+    
+    background:#0C0C0C;
+    
+    color:#eee;
+    
+    position:absolute;
+    bottom:0;
+    left:0;
+    
+    z-index:2;
+}
+
+.mobile {
+    
+    display:none;
+}
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+.mfp-container {
+    
+    z-index:0;
+}
+
+
+/* 
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+
+/*
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+*/

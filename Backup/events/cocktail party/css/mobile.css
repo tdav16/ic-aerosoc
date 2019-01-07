@@ -1,0 +1,99 @@
+/* smart-phones e.g. iPhone6 */
+@media (max-width:625px) {
+    
+    .glyphicon-home {
+    
+        font-size:3vh;
+        color:#eee;
+
+        margin-top:6vh;
+        margin-left:5%;
+    }
+    
+    #badge {
+        
+        display:none;
+    }
+    
+    #cover {
+        
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+    
+    #details {
+        
+        top:50vh;
+        width:90%;
+        
+        text-align:justify;
+        font-size:0.9em;
+        
+    }
+    
+    #details h1 {
+        
+        font-size:150%;
+    }
+    
+    #main-text {
+        
+        overflow-y:scroll;
+        max-height:20vh;
+    }
+    
+    #facebook {
+        
+        position:absolute;
+        right:10px;
+        
+    }
+    
+    #facebook h5 {
+        
+        margin:0;
+        padding:0;
+        padding-top:14px;
+        
+        font-size:70%;
+        
+/*
+        position:absolute;
+        bottom:1vh;
+        right:5vw;
+*/
+    }
+    
+    #img_slider {
+        
+        height:10vh;
+        position:absolute;
+        bottom:5vh;
+        left:5vw;
+        
+        width:90%;
+    }
+    
+    .polaroid {
+        
+        height:50px;
+        width:70px;
+        border:3px #eee solid;
+    }
+    
+    #float-wrap {
+        
+        width: 650px;
+    }
+    
+    .desktop {
+        
+        display:none;
+    }
+    
+    .mobile {
+        
+        display:block;
+    }
+}

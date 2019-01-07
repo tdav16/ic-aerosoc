@@ -1,0 +1,174 @@
+a p {
+    
+    text-decoration:none;
+    color:#D4D4D4;
+}
+
+#committee {
+    float: right;
+    width:75%;
+/*    margin-left:35%;*/
+}
+
+.committee-member {
+    
+    border:1px #D4D4D4 solid;
+    border-radius:2px;
+    float:left;
+    margin:2%;
+    
+    width:20%;
+    height:240px;
+    
+    text-align:center;
+    
+    box-shadow:0 2px 3px 0 rgba(152, 152, 152, 0.4);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.committee-member:hover {
+    
+    box-shadow:0 5px 15px rgba(152, 152, 152, 0.4);
+}
+
+/*
+.committee-member::after {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.committee-member:hover::after {
+  opacity: 1;
+}
+*/
+
+.committee-pic {
+    
+    width:100px;
+    height:100px;
+    
+    border-radius:50%;
+    border:1px #000000 solid;
+    
+    margin-top:30px;
+    margin-left:calc(50% - 50px);
+    margin-bottom:20px;
+    
+    background-size:100px 100px;
+}
+
+.deco {
+    
+    width:12%;
+    height:100px;
+    
+    float:left;
+}
+
+.circ {
+    
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#D4D4D4;
+
+    margin-top:115px;
+    margin-left:45%;
+
+    
+}
+
+#president {
+    
+    background-image:url('/img/committee/Samuel.png');
+}
+
+#ind-lias1 {
+    
+    background-image:url('/img/committee/Wojciech.jpg');
+    
+}
+
+#ind-lias2 {
+    
+    background-image:url('/img/committee/Loris.jpg');
+}
+
+#social {
+    
+    background-image:url('/img/committee/Melissa.png');
+}
+
+#treasurer {
+    
+    background-image:url('/img/committee/Arthur.jpg');
+    clear:both;
+}
+
+#secretary {
+    
+    background-image:url('/img/committee/Clemence.jpg');
+}
+
+#web {
+    
+    background-image:url('/img/committee/Kieran.jpg');
+}
+
+#contact {
+    
+    clear:both;
+    width:80%;
+    margin-left:10%;
+}
+
+.contact-div {
+    
+    float:right;
+    width:29%;
+    height:45px;
+    margin:2%;
+    padding:5px;
+    
+    border-radius:2px;
+    
+}
+
+.contact-div:hover {
+    
+    border-bottom:2px #D4D4D4 solid;
+
+}
+.logo {
+    
+    width:30px;
+    height:30px;
+    
+    background-size:100% 100%;
+    float:left;
+}
+
+.soc-med {
+    
+    float:left;
+    margin-left:20px;
+    
+    color:#D4D4D4;
+    text-decoration:none;
+}
+
+#facebook {
+    
+    background-image:url('/img/contact/facebook.png');
+}
+
+#twitter {
+    
+    background-image:url('/img/contact/twitter.png');
+}
+
+#email {
+    
+    background-image:url('/img/contact/email.png');
+}

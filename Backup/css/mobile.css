@@ -1,0 +1,129 @@
+/* smart-phones e.g. iPhone6 */
+@media (max-width:625px) {
+    
+    .mobile {
+        
+        display:block;
+        
+    }
+    
+    .desktop {
+        
+        display:none;
+    }
+    
+    #parallax {
+        
+        display:none;
+    }
+    
+    #navside {
+        
+        width:100vw;
+    }
+    
+    #navside p {
+        
+        display:none;
+    }
+    
+    #badge {
+        
+        width:30vw;
+        height:30vw;
+        left:20px;
+/*        bottom:20px;*/
+    }
+    
+    .modal {
+        
+        width:100%;
+        font-size:80%;
+        
+    }
+    
+    .modal h2 {
+        
+        font-size:150%;
+    }
+    
+    .list {
+        
+        width:90%;
+        
+    }
+    
+    .committee-member {
+        
+        width:80vw;
+        height:60px;
+        clear:both;
+        margin:2px auto;
+        border:none;
+        border-bottom:2px #eee solid;
+    }
+    
+    .committee-member p {
+        
+        margin-top:5px;
+    }
+    
+    .committee-pic {
+        
+        width:50px;
+        height:50px;
+        float:left;
+        margin:0;
+        margin-top:5px;
+        margin-left:10px;
+        
+        background-size:100% 100%;
+    }
+    
+    .deco {
+        
+        display:none;
+    }
+    
+    .contact-div h4 {
+        
+        display:none;
+    }
+    
+    #sponsor-p1 {
+        
+        font-size:1em;
+    }
+    
+    .close {
+        
+        color:#D4D4D4;
+        opacity:0.3;
+    }
+    
+    }
+    
+    
+}
+
+@media (max-width:360px) {
+    
+    
+    .event {
+        
+        width:50%;
+        
+    }
+    
+    .date {
+        
+        width:50%;
+    }
+    
+    .s-mob {
+        
+        display:block;
+    }
+
+
+}

@@ -1,0 +1,37 @@
+.list {
+    
+    width:40%;
+    float:left;
+    margin:5%;
+    
+}
+
+.date {
+    
+    float:right;
+}
+
+.list ul  {
+    
+    list-style-type: none;
+    padding-left:0;
+}
+
+.list ul li {
+    
+    width:100%;
+    padding:5px;
+
+}
+
+.list ul li:hover {
+    
+    list-style-type:disc;
+}
+
+.list ul li a {
+    
+    color:#D4D4D4;
+    text-decoration:none;
+}
+
